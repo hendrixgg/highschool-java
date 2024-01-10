@@ -1,0 +1,7 @@
+1. Write an interface called Stack, in which the class MyStack implements.
+
+2. Modify MyStack.java file such that the underlying container of the elements is not an 
+   array but an ArrayList that holds objects.
+
+3. Write a MyDriver.java class that reads in strings until "quit" is entered and then 
+   prints the input in reverse order.

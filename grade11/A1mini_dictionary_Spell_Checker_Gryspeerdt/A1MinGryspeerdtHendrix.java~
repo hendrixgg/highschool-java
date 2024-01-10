@@ -1,0 +1,305 @@
+/*Date; 24/09/2020
+ * Name: Hendrix Gryspeerdt
+ * 
+ * Program Description:
+ * This program is designed to function as a simple spell checker. This implementation of a spell checker uses a 
+ * "dictionary" that the user adds words to that the program assumes are spelled correctly. The user can choose to: 
+ * 1. Add words to the dictionary
+ * 2. Search for a word in the dictionary
+ * 3. Insert a word in the dictionary.
+ * 4. Delete a word from the dictionary
+ * 5. List the contents of the dictionary alphabetically
+ * 6. Count the number of words in the dictionary
+ * 7. Go back to main menu
+ * Then, when they choose to spell check a file, the program flags words that are not in the dictionary and
+ * asks the user if they want to ignore the flagged word or add it to the dictionary.
+ * 
+ */
+
+import java.io.*;
+import java.util.*;
+
+public class A1MinGryspeerdtHendrix 
+{
+  static Scanner keyboard1 = new Scanner(System.in);
+  static Scanner keyboard2 = new Scanner(System.in);
+  static Scanner keyboard3 = new Scanner(System.in);
+  static Scanner keyboard4 = new Scanner(System.in);
+  static ArrayList<String> dictionary = new ArrayList<String>();
+  
+  public static void main(String[] args) 
+  {
+    dictionary = new ArrayList<String>();
+    
+    String input; 
+    
+    do // Main menu
+    {
+      System.out.println("\nWelcome to Spell Checker \nWhat would you like to do?\n" +
+                           "[1] Administrative Dictionary Options\n" +
+                           "[2] Run Spell Checker on a text file\n" +
+                           "[3] Quit");
+      input = keyboard1.nextLine();
+      if(input.equals("1"))
+      {
+        do 
+        {
+          System.out.println("\nYou have chosen Administrative Dictionary Options, select what you wish to do:\n" +
+                             "[1] Add words to the dictionary from a text file\n[2] Search for a word in the dictionary\n[3] Insert a word into the dictionary\n[4] Delete a word from the dictionary\n" +
+                             "[5] List the contents of the dictionary alphabetically\n[6] Count the number of words in the dictionary\n[7] Go back to main menu");
+          input = keyboard2.nextLine();
+          
+          if(input.equals("1")) 
+          { 
+            System.out.println("\nYou have chosen to ADD to the dictionary.\nType the name of the file to get your words from.");
+            input = keyboard3.next();
+            addWords(input);
+          }
+          if(input.equals("2")) 
+          {
+            System.out.println("\nYou have chosen to SEARCH the dictionary.\nEnter your search.");
+            input = keyboard3.next();
+            if (search(input)){
+              System.out.println(input +" exists in dictionary");
+            }
+            else if(dictionary.size() > 0){
+              System.out.println(input +" does not exist in dictionary");
+            }else{
+              System.out.println(input +" does not exist");
+            }
+          }
+          if(input.equals("3")) 
+          {
+            System.out.println("\nYou have chosen to INSERT a word into the dictionary. Type the word");
+            input = keyboard3.next();
+            if (insert(input)){
+              System.out.println(input +" was inserted to the dictionary");
+            }
+            else{
+              System.out.println(input +" was not inserted to the dictionary. It was not a new word.");
+            }
+          }
+          if(input.equals("4")) 
+          {
+            System.out.println("\nYou have chosen to DELETE a word from the dictionary. Type the word");
+            input = keyboard3.next();
+            if (delete(input)){
+              System.out.println(input +" was deleted from the dictionary");
+            }
+            else{
+              System.out.println("Did not delete "+input +" since it does not exist in the dictionary.");
+            }
+          }
+          if(input.equals("5")) 
+          {
+            list();
+          }
+          if(input.equals("6")) 
+          {
+            count();
+          }
+        } while(!input.equals("7"));
+        System.out.println("Returning to main menu");
+      }
+      if(input.equals("2")) {
+        System.out.println("\nYou have chosen to spell check a file. Type the file's name");
+        input = keyboard2.next();
+        spellCheck(input);
+      }
+    } while(!input.equals("3"));
+    System.out.println("Program Terminated");
+  }
+  
+  /* Reads a file, adding each new word to the dictionary
+   * fileName is the name of the file
+   */
+  public static void addWords(String fileName) 
+  {
+    Scanner dataScan1 = null;
+    Scanner dataScan2 = null;
+    boolean found = true;
+    String temp = "";
+    ArrayList<String> addedwords = new ArrayList<String>();
+    
+    try {
+      //inputData is just a text file
+      dataScan1 = new Scanner(new File(fileName));
+      dataScan2 = new Scanner(new File(fileName));
+    }
+    catch (FileNotFoundException exception) {
+      System.out.println("The input file was not found.");
+      found = false;
+    }
+    
+    // will run as long as file exists and the exception did not run
+    if (found) {
+      // Checks to see if there are more tokens read
+      while (dataScan1.hasNext())   {
+        // initialize the string delimiter
+        dataScan1.useDelimiter("[^a-zA-Z0-9]+");
+        temp = dataScan1.next();
+        //switches characters of words to lower case unless it is "I" by it's self
+        if(temp.length() == 1 && temp.equals("I")){
+          //do nothing to I
+        }else if(temp.length() > 1 || temp.equals("a") || temp.equals("A")){
+          for(int i = 0; i < temp.length(); i++){//replaces lower case letters with upper case letters as long as it isn't "I" or another single letter
+            if(temp.charAt(i) >= 'A' && temp.charAt(i) <= 'Z'){
+              temp = temp.replace((char)temp.charAt(i),(char)(temp.charAt(i) + 32));
+            }
+          }
+          if(dictionary.contains(temp) == false){
+            addedwords.add(temp);
+            dictionary.add(temp);
+          }
+        }
+      }
+        System.out.println("The imported text file: ");
+        while (dataScan2.hasNext()){
+          System.out.println(dataScan2.nextLine()); 
+        }
+        Collections.sort(addedwords);
+      System.out.println("\nThe words added to dictionary: \n"+ addedwords);
+    }
+    dataScan1.useDelimiter(" ");
+    Collections.sort(dictionary);
+  }
+  
+  /* Searches for a word in the dictionary. 
+   * Returns true if found, false otherwise
+   */    
+  public static boolean search(String word) 
+  {
+    //switches characters of words to lower case unless it is "I" by it's self
+    if(word.length() == 1 && word.equals("I")){
+      //do nothing to I
+    }else if(word.length() > 1 || word.equals("a") || word.equals("A")){
+      for(int i = 0; i < word.length(); i++){//replaces lower case letters with upper case letters as long as it isn't "I" or another single letter
+        if(word.charAt(i) >= 'A' && word.charAt(i) <= 'Z'){
+          word = word.replace((char)word.charAt(i),(char)(word.charAt(i) + 32));
+        }
+      }
+    }
+      return dictionary.contains(word);
+  }
+  
+  /* Adds a word to the dictionary if it's not in the dictionary already
+   * Returns true if successfull, false otherwise
+   */    
+  public static boolean insert(String word) 
+  {
+   //switches characters of words to lower case unless it is "I" by it's self
+    if(word.length() == 1 && word.equals("I")){
+      //do nothing to I
+    }else if(word.length() > 1 || word.equals("A")){
+      for(int i = 0; i < word.length(); i++){//replaces lower case letters with upper case letters as long as it isn't "I" or another single letter
+        if(word.charAt(i) >= 'A' && word.charAt(i) <= 'Z'){
+          word = word.replace((char)word.charAt(i),(char)(word.charAt(i) + 32));
+        }
+      }
+    }
+      if(dictionary.contains(word) == false){
+        dictionary.add(word);
+        return true;
+      }
+    return false;
+  }
+  
+  /* Removes a word from the dictionary
+   * Returns true if word was deleted, false otherwise
+   */    
+  public static boolean delete(String word) 
+  {
+    //switches characters of words to lower case unless it is "I" by it's self
+    if(word.length() == 1 && word.equals("I")){
+      //do nothing to I
+    }else if(word.length() > 1 || word.equals("A")){
+      for(int i = 0; i < word.length(); i++){//replaces lower case letters with upper case letters as long as it isn't "I" or another single letter
+        if(word.charAt(i) >= 'A' && word.charAt(i) <= 'Z'){
+          word = word.replace((char)word.charAt(i),(char)(word.charAt(i) + 32));
+        }
+      }
+    }
+      if(dictionary.contains(word) == true){
+        dictionary.remove(word);
+        return true;
+      }
+    return false;       
+  }
+  
+  // Lists the words of the dictionary in alphabetical order
+  public static void list() 
+  {
+      System.out.println("The dictionary contains the following:");
+      Collections.sort(dictionary);
+      for(int index = 0; index < dictionary.size(); index++){
+        System.out.println((index + 1)+". "+ dictionary.get(index));
+      }
+  }
+  
+  // Outputs the number of words in the dictionary
+  public static void count() 
+  {
+    
+    System.out.println("The dictionary contains "+ dictionary.size() +" words");
+  }
+  
+  // Spell Check method
+  public static void spellCheck(String fileName) 
+  {
+    String input = "";//user input
+    Scanner dataScan = null;
+    boolean found = true;
+    String temp = "";
+    ArrayList<String> notFound = new ArrayList<String>();
+    
+    try {
+      //input data is just a text file
+      dataScan = new Scanner(new File(fileName));
+    }
+    catch (FileNotFoundException exception) {
+      System.out.println("The input file was not found.");
+      found = false;
+    }
+    // will run as long as file exists and the exception did not run
+    if (found) {
+      while(dataScan.hasNext()){
+        // initialize the string delimiter
+        dataScan.useDelimiter("[^a-zA-Z0-9&&[^'s|t|m|ll|ve|d]]+");//
+        temp = dataScan.next();
+        //switches characters of words to lower case unless it is "I" by it's self
+        if(temp.equals("I")){
+          //do nothing to I
+        }else if(temp.length() > 1 || temp.equals("a") || temp.equals("A")){
+          for(int i = 0; i < temp.length(); i++){//replaces lower case letters with upper case letters as long as it isn't "I" or another single letter
+            if(temp.charAt(i) >= 'A' && temp.charAt(i) <= 'Z'){
+              temp = temp.replace((char)temp.charAt(i),(char)(temp.charAt(i) + 32));
+            }
+          }
+          if(!dictionary.contains(temp) && !notFound.contains(temp)){
+            notFound.add(temp);
+          }
+        }
+      }
+        Collections.sort(notFound);
+        for(int i = 0; i < notFound.size(); i++){
+          System.out.println("The following word was not found in the dictionary: ");
+          System.out.println();
+          System.out.println(notFound.get(i));
+          System.out.println();
+          do{
+            System.out.println("What would you like to do?\n[1] Ignore the word\n[2] Add the word to the dictionary \n[3] Cancel the spell check");
+            input = keyboard4.nextLine(); 
+          }while(!input.equals("1") && !input.equals("2") && !input.equals("3"));
+          if(input.equals("3"))
+            break;
+          if(input.equals("2"))
+             insert(notFound.get(i));
+             
+        }
+      }
+    System.out.println("Spell check over");
+  }//end of code
+  
+  
+}
+

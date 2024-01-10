@@ -1,0 +1,21 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class Q {
+  
+  
+  public static void main(String[] args) { 
+    int[][] a = new int[57][57];
+    int y=0; x=0;
+    
+    for(x=0; x < 57; x++){
+     y += a[x][56-x];
+       System.out.println(a[x][56-x]);
+    }
+    System.out.println(y);
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

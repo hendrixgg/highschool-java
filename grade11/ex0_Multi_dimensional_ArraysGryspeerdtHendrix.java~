@@ -1,0 +1,33 @@
+/*Date: sept 18, 2020
+ * name: Hendrix Gryspeerdt
+ * 
+ * Title: Java 02 Multi-dimensional Array Exercises
+ */
+
+class ex0_Multi_dimensional_ArraysGryspeerdtHendrix{
+  
+  public static void exercise_1(){
+    int [] a = new int[3][4];
+  }
+  public static void exercise_2(){
+    // a)
+    double[][] first = new double[25][40];
+    int numElements = first.length * first[].length;
+      System.out.println("a) there are "+ numElements +" in the array: first[25][40]");
+    // b)
+    boolean [][][] second = new boolean[3][6][50];
+    numElements = second.length * second[].length * second[][].length;
+    System.out.println("b) there are "+ numElements +" in the array: second[3][6][50]");
+    //c
+    char [][] third = new char[60][40];
+    numElements = third.length * third[].length;
+    System.out.println("c) there are "+ numElemments +" in the array: third[60][40]")
+    
+  }
+  
+  public static void main(String[] args){
+    exercise_2();
+    
+  }
+  
+}

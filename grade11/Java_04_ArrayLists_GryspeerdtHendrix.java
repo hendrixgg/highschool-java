@@ -1,0 +1,166 @@
+/*Date: 20/09/2020
+ * name:hendrix
+ * Java 04 - ArrayLists
+ */
+
+import java.util.*;
+public class Java_04_ArrayLists_GryspeerdtHendrix 
+{
+  public static String getAlphaNumericString(int n) 
+    { 
+  
+        // chose a Character random from this String 
+        String AlphaNumericString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                                    + "0123456789"
+                                    + "abcdefghijklmnopqrstuvxyz"; 
+  
+        // create StringBuffer size of AlphaNumericString 
+        StringBuilder sb = new StringBuilder(n); 
+  
+        for (int i = 0; i < n; i++) 
+        { 
+  
+            // generate a random number between 
+            // Alphabetical variable length 
+            int index = (int)(AlphaNumericString.length() * Math.random()); 
+            
+            // add Character one by one in end of sb 
+            sb.append(AlphaNumericString.charAt(index)); 
+        } 
+  
+        return sb.toString(); 
+    } 
+  public static void q1()//QUESTION 1
+  {
+   ArrayList<String> stringList = new ArrayList<String>();
+    Scanner keyboard = new Scanner(System.in);
+    String input = "";
+    while (!input.equals("stop")) {
+      System.out.println("List of inputs: " + stringList);
+      input = keyboard.nextLine();
+      stringList.add(input);
+    }
+    int i = stringList.size()-2;
+    System.out.print("Reverse oreder: [");
+    while (i>=0) {
+      System.out.print(stringList.get(i));
+      if(i != 0)
+      {
+       System.out.print(", "); 
+      }
+      i -= 1;    
+    }
+    System.out.print("]");
+  }
+public static void q2()//QUESTION 2
+{
+  ArrayList<String> stringList = new ArrayList<String>();
+  int maxlength = 10;
+  int minlength = 5;
+  int listlength = (int)(Math.random()*(maxlength - minlength) + minlength);
+  for (int lengthOfList = 0; lengthOfList < listlength; lengthOfList++)
+  {
+    int stringLength = (int)(Math.random()*(20-1) + 1);
+    stringList.add(getAlphaNumericString(stringLength));
+  }
+  //get max length string
+  int max = stringList.get(0).length();
+  for (int pos = 0; pos < stringList.size(); pos++)
+  {
+    if(stringList.get(pos).length() > max)
+      max = stringList.get(pos).length();
+  }
+  //get min length string
+  int min = stringList.get(0).length();
+  for (int pos = 0; pos < stringList.size(); pos++)
+  {
+    if(stringList.get(pos).length() < min)
+      min = stringList.get(pos).length();
+  }
+  //get average length string
+  int sum = 0;
+  for (int pos = 0; pos < stringList.size(); pos++)
+  {
+    sum += stringList.get(pos).length();
+  }
+  //print out the results
+  double average = (double)sum / stringList.size();
+  System.out.println();
+  System.out.println();
+  System.out.println("Question 2: Write a segment of code that takes an \n"
+                    +"ArrayList of Strings named list and determines: \n"
+                    +"- The length of the longest String in the list \n"
+                    +"-The length of the shortest String in the list \n"
+                    +"-the average length of strings in the list");
+  System.out.println();            
+  System.out.println("This is the generated list: " + stringList);
+  System.out.println("The length of the longest String in the list was: " + max);
+  System.out.println("The length of the shortest String in the list was: " + min);
+  System.out.println("The average length of Strings in the list was: " + average);
+  System.out.println();
+}
+public static void q3()//QUESTION 3
+{
+ ArrayList<Integer> nums = new ArrayList<Integer>();
+ 
+ int i = 2;
+ while(i<=20)
+ {
+  nums.add(i); i += 2;
+ }
+ System.out.println("Question 3: Write a segment of code that: \n"
+                    +"- Declares a new ArrayList of integers named nums \n"
+                    +"- The length of the shortest String in the list \n"
+                    +"- Puts the even numbers from 2 through 20 into this \n"
+                    +"  list");
+ System.out.println();
+ System.out.println("Here is the list:");
+ System.out.println(nums);
+ System.out.println();
+ for(int x = 5; x < nums.size(); x++)
+   nums.remove(x);
+ System.out.println(nums.toString());
+}
+public static void q4()//QUESTION 4
+{
+  ArrayList<Integer> mylist = new ArrayList<Integer>();
+  for(int i = 2; i <= 20; i+=2)
+  {
+   mylist.add(i);
+  }
+  ArrayList<Integer> mylist2 = new ArrayList<Integer>();
+  mylist2.addAll(mylist);
+  
+  System.out.println("Question 4: Write a segment of code that: \n"
+                    +"- Uses an ArrayList of Integers named list1 to build \n"
+                    +"  a new ArrayList of Integers named list2 \n"
+                    +"- The elements of list2 should be in reverse order \n"
+                    +"  from the elements that are in list1");
+  System.out.println();
+  System.out.println("list 1: "+ mylist);
+  System.out.println("list 2: "+ mylist2);
+  System.out.print("list 2 in reverse order: [");
+  for(int i = mylist2.size()-1; i >= 0; i--)
+  {
+    System.out.print(mylist2.get(i));
+    if(i != 0)
+    {
+     System.out.print(", "); 
+    }else{
+     System.out.print("]"); 
+    }
+  }
+  System.out.println();
+}
+  
+  
+  
+  public static void main(String[] args)
+  {
+    q1();
+    q2();
+    q3();
+    q4();
+      
+  }
+}

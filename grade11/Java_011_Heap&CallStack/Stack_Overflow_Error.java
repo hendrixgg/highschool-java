@@ -1,0 +1,29 @@
+/**
+ * this program will cause a stack over flow error
+ */
+
+class Prog1{
+    
+    public static void main(String[] args){
+     
+        int a = 1;
+        int b = 10;
+        int c = 10;
+        
+        doSomething(a,b,c);
+            
+        
+    }
+    public static void doSomething(int x, int y, int z){
+        int a = x;
+        int b = y;
+        int c = z;
+        if (a%1000 == 0){
+            // print every 1000th method call
+            System.out.println(a);
+        }
+        doSomething(a+1, b, c);
+    }
+    
+    
+}

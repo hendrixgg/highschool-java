@@ -1,0 +1,34 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class Java_2_1_Methods_Overloading {
+  
+  public static void rolldice(){
+   System.out.println((int)(Math.random()*6) + 1); 
+  }
+  
+  public static void rolldice(int numrolls){
+    for (int i = 0; i < numrolls; i++){
+      System.out.println((int)(Math.random()*6) + 1);
+    }
+    
+  }
+  
+  public static void rolldice(int numrolls, int numfaces){
+    for (int i = 0; i < numrolls; i++){
+      System.out.println((int)(Math.random()*numfaces) + 1);
+    }
+  }
+  
+  
+  public static void main(String[] args) { 
+    //ex1
+    rolldice();
+    rolldice(5);
+    rolldice(5, 10);
+    
+  }
+  
+  
+  
+}

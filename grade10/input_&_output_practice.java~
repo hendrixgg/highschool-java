@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+class input_&_output_practice {
+  public static void main(String args[]){
+    
+    Scannner keyboard = new Scanner(System.in);
+    
+    System.out.println("What's your first name?");
+    String name = nextLine();
+    
+    if (name == 'Hendrix'){ System.out.println("Wow! we have the same first name");
+    }else{ System.out.println("Nice to meet you " + name); }

@@ -1,0 +1,38 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class Java_2_1_Methods_Overloading {
+  
+  public static void rolldice(){
+    System.out.println("roll 1, 6 sided dice: ");
+    System.out.print(((int)(Math.random()*6) + 1) + " "); 
+    System.out.println();
+  }
+  
+  public static void rolldice(int numrolls){
+    System.out.println("roll "+ numrolls +", 6 sided dice: ");
+    for (int i = 0; i < numrolls; i++){
+      System.out.print(((int)(Math.random()*6) + 1) + " ");
+    }
+    System.out.println();
+  }
+  
+  public static void rolldice(int numrolls, int numfaces){
+    System.out.println("roll "+ numrolls + ", " + numfaces + " sided dice: ");
+    for (int i = 0; i < numrolls; i++){
+      System.out.print(((int)(Math.random()*numfaces) + 1)+ " ");
+    }
+    System.out.println();
+  }
+  
+  public static void main(String[] args) { 
+    //ex1
+    rolldice();
+    rolldice(5);
+    rolldice(5, 10);
+    
+  }
+  
+  
+  
+}

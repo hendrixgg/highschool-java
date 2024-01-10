@@ -1,0 +1,109 @@
+//Hendrix Gryspeerdt
+//20/02/2020
+//mini array assignment
+
+/*A program to simulate rolling of two dice together 50 times. It counts the number
+of times each result (i.e., total of the two dice) occurs and print out the results and displays them in an organised chart.*/
+
+import java.util.Scanner;// imports the scanner utility so the program can take inputs from the user
+
+public class A5TinyGryspeerdtHendrix
+{
+   
+  public static void main (String []args)
+  {
+    Scanner input = new Scanner(System.in);
+    
+    int[] rolls = new int[50]; //an array to store each individual roll
+    int[] rollcount = new int[11]; //an array to store the amount of times a specific number was rolled
+    double count = 0;
+    System.out.println("This is a program to simulate the rolling of two dice together 50 times. It counts the number\n"// states what the program does
+                       + "of times each result (i.e., total of the two dice) occurs and prints out the results and \n"
+                       + "displays them in an organised chart.\n");
+    
+    do// a loop that repeats until the user inputs a 0
+    {
+      System.out.println("Enter the number of randomized charts you want to generate (0 to quit):");// tells the user what to do
+      count = Math.round(Math.abs(input.nextDouble()));// accepts user input and ensures that the program receives an input in the desired range 
+      
+      System.out.println("\n");
+      for ( int a = 0; a < count; a++)// a loop to repeat based on the desired number of charts to be generated
+      {
+        
+        for (int i = 0; i < rolls.length; i++)//a loop that repeats 50 times for the 50 rolls
+        {
+          rolls[i] = twodiceroll(); //assigns a random dice roll to rolls[i]
+        }
+        
+        for (int j = 0; j < rollcount.length; j++)// a loop that repeats 11 times for each different possible roll
+        {
+          rollcount[j] = dice_rollsof(rolls, j);// assigns the frequency of each roll to rollcount[j]
+        }
+        
+        dice_roll_chart(rollcount); //prints the chart
+      }
+      
+      if (count == 0)//ends the program if the user imputs 0
+        break;
+    }while(true);
+    
+  }
+  
+  public static int dice_rollsof(int [] rs, int k)// a method that returns the frequency of each roll 
+  {
+    int[] rc = new int[11];// an array to store the frequency of each roll (2,3,4,5,6,7,8,9,10,11,12)
+    for (int i = 0; i < rs.length; i++) // a loop that repeats 50 times for the 50 dice rolls
+    {
+        if (rs[i] == (k +2)) //an if statement used to determine if rs[i] is equal to a 2,3,4,...,12 and increments rc[x]
+          rc[k] += 1;
+    }
+    int r = rc[k]; 
+    return r;// returns the number of time either a 2,3,4,5,6,7,8,9,10,11,12 showed up
+  }
+  
+  public static void dice_roll_chart(int [] r)// a method that takes in the rollcount[] data and generates an organized chart
+  {  
+      
+    System.out.println("Roll | Number of Occurrences | graph");//printing the column title for a chart
+    System.out.println("____________________________________");//printing a horizontal line
+    int x = 2; // a variable that says which roll
+    for (int i = 0; i < r.length; i++)// a loop that repeats 11 times for the 11 different possible rolls (2,3,4,5,6,7,8,9,10,11,12)
+    {
+      
+      System.out.print(x); 
+      if (x > 9)// prints one less space beside a 2 digit number
+      {
+        System.out.print("   | ");//printing spaces and dividing line
+      }else{
+        System.out.print("    | ");//printing spaces and dividing line
+      }
+      
+      System.out.print(r[i]);// prints the frequency of that specific roll (rolls :  2,3,4,5,6,7,8,9,10,11,12)
+      
+      if (r[i] > 9) // prints one less space beside a 2 digit number
+      {
+        System.out.print("                    | ");//printing spaces and dividing line
+      }else{
+        System.out.print("                     | ");//printing spaces and dividing line
+      }
+      
+      for (int k = 0; k < r[i]; k++) //a loop used to print the number of asterisks for the number of times a certain roll occurred
+      {
+        System.out.print("*");// printing an asterisk
+      }
+      System.out.println();//prints a blank line
+      x++;//increments the variable displaying the roll under the roll column (prints a 2,3,4,5,6,7,8,9,10,11,12)
+    }
+    System.out.println("\n");// prints two blank lines
+  }
+  
+  public static int twodiceroll()// a method that generates two random six sided dice rolls, adds them and outputs the sum
+  {
+    int rolla = (int)(6*Math.random() + 1);//generates roll a
+    int rollb = (int)(6*Math.random() + 1);//generates roll b
+    int rollsum = rolla + rollb;// adds the two rolls
+    
+    return rollsum;//returns the value
+  }
+  
+}

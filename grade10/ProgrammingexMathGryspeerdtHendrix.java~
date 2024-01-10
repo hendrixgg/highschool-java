@@ -1,0 +1,49 @@
+/* Date: dec 13, 2019
+ * Assignment: Programming Exercises - Mathematical Functions
+ * Name: Hendrix Gryspeerdt 
+ */
+ import java.util.*;
+ import java.text.DecimalFormat;
+ import java.util.concurrent.ThreadLocalRandom;
+ class ProgrammingexMathGryspeerdtHendrix{
+   public static void main(String []args){
+     Scanner input = new Scanner(System.in);
+     DecimalFormat df = new DecimalFormat("###,###.###");
+     
+     System.out.println("Q1: a program that reads a time interval in hours, minutes, and seconds, and converts this measurement to hours only.");
+     
+     System.out.println("Now enter hours, then minutes, then seconds.");
+     System.out.print("hours: ");
+     double hrs = input.nextDouble();
+     System.out.print("minutes: ");
+     double min = input.nextDouble();
+     System.out.print("seconds: ");
+     double sec = input.nextDouble();
+     
+     double hours = hrs + (min/60.0000) + (sec/3600.0000);
+     
+     System.out.println(hrs + " hours, " + min + " minutes, " + sec + " seconds is " + df.format(hours) + " hours.");
+     
+     System.out.println("Q2: a program that reads an angle measurement in degrees and \nconverts it to a measurement using degrees, minutes, and seconds.");          
+     
+     System.out.println("\nNow input degrees:");
+     double deg = input.nextDouble();
+     min = (deg%1)*60;
+     sec = (min%1)*60;
+     min = min - (min%1);
+     
+     System.out.println(deg + " degrees is " + (deg - deg % 1) + " degrees, " + df.format(min) + " minutes, " + df.format(sec) + " seconds.");
+     
+     
+     System.out.println("\nQ3: simulate a roll of a fair 6 sided dice for 3 rolls");
+     
+     for (int i = 0; i < 3; i++)
+     {
+      int roll = ThreadLocalRandom.current().nextInt(1, 7);
+        
+      System.out.println("You rolled a " + roll + "!"); 
+     }
+     
+     
+   }
+ }

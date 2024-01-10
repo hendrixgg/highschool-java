@@ -1,0 +1,26 @@
+//  Returns a string representation of the queue
+    public String toString(){
+      if(isEmpty())
+        return "[]";
+      //to be executed if queue not empty
+      String queue = "[";
+      int tempfront = front;
+      int index = 0;
+      while(true){
+        if(tempfront == rear){
+          queue += myArray[rear] + ", ";
+        }else{
+          queue += myArray[tempfront];
+        }
+        tempfront++;
+        if(tempfront == myArray.length)
+          tempfront = 0;
+        index++;
+        if(currentSize == index)
+          break;
+        if(tempfront-1 != rear)
+          queue += ", ";
+      }
+      queue += "]";
+      return queue;
+    }

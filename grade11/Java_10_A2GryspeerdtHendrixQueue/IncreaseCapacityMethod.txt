@@ -1,0 +1,22 @@
+/ Create new array with double capacity and copy all elements to it in correct
+  // order
+  private void increaseCapacity() {
+    // creating new array with double the capacity as previous
+    int newCapacity = myArray.length * 2;
+    int[] newArray = new int[newCapacity];
+    // copy elements to new array, copying from rear to front
+    int tempfront = front;
+    int index = 0;
+    while (true) {
+      newArray[index++] = myArray[tempfront];
+      tempfront++;
+      if (tempfront == myArray.length)
+        tempfront = 0;
+      if (currentSize == index + 1)
+        break;
+    }
+    // make new array the queue
+    myArray = newArray;
+    front = 0;
+    rear = index;
+  }

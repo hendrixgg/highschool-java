@@ -1,0 +1,112 @@
+1 - a
+2 - a
+3 - b
+4 - e
+5 - T
+6 - F
+
+7
+A while loop is a conditional loop. The condition is checked a the start of the loop and repeats code as long as a condition is met. The minimum times it can iterate the loop is zero.
+
+8
+The for loop is a counted loop. The loop is executed a known number of times. Ie find the sum of the first 100 positive integers.
+
+9a)
+	int y = 1;
+        for (int x = 0; x < 3; x++)
+        {
+            System.out.println(x + y);
+            y = y + 1;
+        }
+
+9b)
+	for (int rabbit = 3; rabbit < 100; rabbit*=3)
+        {
+            System.out.println(rabbit);
+        }
+
+10
+a) - for loop - it is a known number of iterations (100)
+b) - do while - it runs at least once, get the password and then validate the password
+c) - while loop - it may not loop at all
+d) - while loop - it may not loop at all
+e) - for loop - it is a known number of iterations (10)
+
+11
+import java.util.Scanner;
+class Q11 {
+        
+    public static void main(String[] args) 
+    { 
+        Scanner keyboard = new Scanner(System.in);
+        
+        int input;
+        int count = 0;
+        
+        do{
+            input = keyboard.nextInt();
+            if (input > 10)
+            {
+                count++;
+            }            
+            
+        }while (input > 0);
+       System.out.println("The number of values above 10 was " + count);        
+    }   
+}
+
+
+12
+import java.util.Scanner;
+class Q12 {
+        
+    public static void main(String[] args) 
+    { 
+        Scanner keyboard = new Scanner(System.in);
+        
+        int start, end, mult;
+        
+        System.out.println("Enter the multiple");        
+        mult = keyboard.nextInt();
+        
+        System.out.println("Enter the start");        
+        start = keyboard.nextInt();
+        
+        System.out.println("Enter the endple");        
+        end = keyboard.nextInt();
+        
+        while (start <= end){
+            System.out.print(start + " ");
+            start += mult;
+        }
+        System.out.println();
+    }   
+}
+
+
+13
+import java.util.Scanner;
+class Q13 {
+    
+    public static void main(String[] args) 
+    { 
+        Scanner keyboard = new Scanner(System.in);
+        
+        String input;
+        int count = 0;
+        
+        do{
+            System.out.println("Enter the password");        
+            input = keyboard.nextLine();
+            count++;
+        }while(!input.equals("my password") && count < 5);
+        
+        if (!input.equals("my password"))
+        {
+            System.out.println("too many invalid attempts");
+        }
+        else{
+            System.out.println("access granted");
+        }
+    }
+}

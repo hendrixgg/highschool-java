@@ -1,0 +1,210 @@
+/*Date: sept 18, 2020
+ * name: Hendrix Gryspeerdt
+ * 
+ * Title: Java 02 Multi-dimensional Array Exercises_1
+ */
+
+import java.util.*;
+class ex1_Multi_dimensional_ArraysGryspeerdtHendrix
+{
+  
+  public static void question_1()
+  {
+    int [][] a = new int[3][4];
+  }
+  public static void question_2()
+  {
+    System.out.println("question 2:");
+    // a)
+    double[][] first = new double[25][40];
+    int numElements = first.length * first[0].length;
+    System.out.println("a) there are "+ numElements +" elementsin the array: first[25][40]");
+    //b
+    boolean [][][] second = new boolean[3][6][50];
+    numElements = second.length * second[0].length * second[0][0].length;
+    System.out.println("b) there are "+ numElements +" elements in the array: second[3][6][50]");
+    //c
+    char [][] third = new char[60][40];
+    numElements = third.length * third[0].length;
+    System.out.println("c) there are "+ numElements +" elements in the array: third[60][40]");
+    
+    System.out.println();
+  }
+  
+  public static void question_3()
+  {
+    int a[][] = {{4,2,7},
+      {3,9,1}};
+    System.out.println("question 3:");
+    //a)
+    System.out.println("a)");
+    for (int i = 0; i < a.length; i++)
+    {
+      for (int j = 0; j < a[0].length; j++)
+      {
+        System.out.print(a[i][j]);
+      }
+      System.out.println();
+    }
+    //b
+    System.out.println("b)");
+    for (int i = 0; i < a[0].length; i++)
+    {
+      for (int j = 0; j < a.length; j++)
+      {
+        System.out.print(a[j][i]); 
+      }
+      System.out.println();
+    }
+    
+    System.out.println();
+  }
+  public static void question_4()
+  {
+    System.out.println("question 4:");
+    int array[][] = {{4,2,7},
+      {3,9,1}};
+    for (int i = array[0].length - 1; i >= 0; i--)
+    {
+      for (int j = array.length - 1; j >= 0; j--)
+      {
+        System.out.print(array[j][i]); 
+      }
+      System.out.println();
+    }
+    
+    System.out.println();
+  }
+  public static void question_5()
+  {
+    //q5
+    System.out.println("question 5:");
+    double[][] array = {{6.7,9.1,8.3,5.6},
+      {2.4,7.5,4.2,7.4},
+      {1.9,8.6,3.1,4.9}};
+    System.out.println("the sum of all the elements in the array: \n");
+    for (int i = 0; i < array.length; i++)
+    {
+      for (int j = 0; j < array[i].length; j++)
+      {
+        System.out.print(array[i][j] +"\t");
+      }
+      System.out.println();
+    }
+    System.out.println();
+    System.out.println("= "+ sum(array));
+    System.out.println(); 
+  }
+  public static void question_6()
+  {
+    //q6
+    System.out.println("question 6:");
+    int[][] array = {{1,7,4,8,5},
+      {2,7,9},
+      {3},
+      {7,4,6,8}};
+    System.out.println("the maximum value in this array:");
+    for (int i = 0; i < array.length; i++)
+    {
+      for (int j = 0; j < array[i].length; j++)
+      {
+        System.out.print(array[i][j] +"\t");
+      }
+      System.out.println();
+    }
+    System.out.println();
+    System.out.println("is "+ max(array));
+    System.out.println(); 
+  }
+  public static void question_7()
+  {
+    //q7
+    System.out.println("question 7:");
+    int[][][] array = {
+      {{10, 20, 30},{20, 40, 60}}, 
+      { {10, 30,50,70},{50},{80, 90}} 
+    };
+    
+    System.out.println("the number of elements in the 3D array: \n");
+    for (int i = 0; i < array.length; i++)
+    {
+      for (int j = 0; j < array[i].length; j++)
+      {
+        for(int k = 0; k < array[i][j].length; k++)
+        {
+            System.out.print(array[i][j][k] +"\t"); 
+        }
+        System.out.println();
+      }
+      System.out.println();
+    }
+    
+    System.out.println();
+    System.out.println("is "+ size(array));
+    System.out.println();
+    
+  }
+  public static double sum(double array[][])
+  {
+    double sum = 0;
+    for (int i = 0; i < array.length; i++)
+    {
+      for(int j = 0; j < array[i].length; j++)
+      {
+        sum += array[i][j]; 
+      }
+    }
+    return sum;
+  }
+  public static int max(int array[][])
+  {
+    int max = array[0][0];;
+    int temp;
+    for (int i = 0; i < array.length; i++)
+    {
+      for (int j = 0; j < array[i].length; j++)
+      {
+        if (array[i][j] > max)
+          max = array[i][j]; 
+      }
+    }
+    return max;
+  }
+  public static int size(int array[][][])
+  {
+    int numElements = 0;
+    for (int i = 0; i < array.length; i++)
+    {
+      for (int j = 0; j < array[i].length; j++)
+      {
+        for (int k = 0; k < array[i][j].length; k++)
+          numElements++;
+      }
+    }
+    return numElements;
+  }
+  
+  public static int sumArray3D(int array[][][])
+  {
+    int sum = 0;
+    for (int i = 0; i < array.length; i++)
+    {
+      for (int j = 0; j < array[i].length; j++)
+      {
+        for (int k = 0; k < array[i][j].length; k++)
+          sum += array[i][j][k];
+      }
+    }
+    return sum;
+  }
+  
+  public static void main(String[] args){
+    question_2();
+    question_3();
+    question_4();
+    question_5();
+    question_6();
+    question_7();
+    
+  }
+}

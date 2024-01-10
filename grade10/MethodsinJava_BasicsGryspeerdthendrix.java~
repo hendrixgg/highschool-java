@@ -1,0 +1,55 @@
+//Hendrix Gryspeerdt
+//Methods in Java - Basics
+//Date: 06/01/2020
+
+ import java.util.Scanner;
+ import java.util.concurrent.ThreadLocalRandom;
+ import java.text.DecimalFormat;
+class MethodsinJava_Basics
+{
+    public static Scanner input = new Scanner(System.in);
+    public static DecimalFormat df = new DecimalFormat("###,###.###");
+    
+  public static void diceRoll ()
+    {
+      int roll = ThreadLocalRandom.current().nextInt(1, 7);
+      System.out.println("\n\nA method that will simulate the results of rolling a single fair six sided dice");
+      System.out.println("You rolled a " + roll + "!");
+    }
+  public static void printHeading ()
+    {
+      System.out.println();
+      System.out.println("Ahmed's Video Wonderland");
+      System.out.println("  123 Roehampton Avenue");
+      System.out.println("     613-555-1212");
+    }
+  public static void printRoot ()
+    {
+      System.out.println("Please give a non-negative value");
+      double x = input.nextDouble();
+      
+      if (x >= 0)
+      {
+       System.out.println("Square root is " + Math.sqrt(x)); 
+      }
+    }
+  public static void Q1 ()
+  {
+    System.out.println();
+    System.out.println("Question: What is the difference between a method definition and a method invocation?");
+    System.out.println();
+    System.out.println("The difference between method definition and method invocation is that method definition is the \ncode that makes up a specific method and a method invocation is a call to the output of a method in the main method.");  
+  }
+  public static void main(String []args)
+    {
+      printHeading();
+      printHeading();
+      printHeading();
+      printRoot();
+      printRoot();
+    
+      Q1();
+      diceRoll();
+    }
+  
+}

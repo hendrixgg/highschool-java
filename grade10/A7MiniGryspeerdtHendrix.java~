@@ -1,0 +1,52 @@
+class A7MiniGryspeerdtHendrix{
+  public static void main(String args[]){
+  // Question 1:
+    int n = 10;
+    System.out.println("Question 1:");
+    System.out.println(--n);System.out.println(--n);
+    System.out.println(--n);System.out.println(--n);
+    System.out.println(--n);System.out.println(--n);
+    System.out.println(--n);System.out.println(--n);
+    System.out.println(--n);System.out.println(--n);
+    System.out.println("\n");
+ //Question 2:
+   int m = 1;
+   System.out.println("Question 2:");
+   System.out.println(m);    System.out.println(m *=2);
+   System.out.println(m *=2);System.out.println(m *=2);
+   System.out.println(m *=2);System.out.println(m *=2);
+   
+ //Question 4:
+   int z = 498;
+   int a = 25;
+   int b = 10;
+   int c = 5;
+   int d = 1;
+   int numa = z/a;
+   int numb = (z - a * numa)/b;
+   int numc = (z - a * numa - b * numb)/c;
+   int numd = (z - a * numa - b * numb - c * numc)/d;
+   System.out.println("Question 4:");
+   System.out.print("\n\n"+ z +" cents in quarters, dimes, nickels and pennies is: ");
+   System.out.print( numa +" quarters, "+ numb + " dimes, "+ numc +" nickels, "+ numd +" pennies");
+    
+   
+ //Bonus Question:
+   
+  int x = 10;
+  int y = 20;
+  x = x + 10;
+  y = y - 10;
+  System.out.println("\n\nBonus Question:\n");
+  System.out.println(x);
+  System.out.println(y);
+   
+  //Question 6:
+  
+  double x=2, y=5;
+  System.out.println("\n\n");
+  
+  System.out.println("#1: x = "+ x );
+  
+  
+  }}

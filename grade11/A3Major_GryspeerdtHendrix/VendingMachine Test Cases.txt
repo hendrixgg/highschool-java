@@ -1,0 +1,45 @@
+********* SHOW ME THE MONEY !!! ******************
+
+Test 1: Create a vending machine and check if float amount is 1000
+Test 2a: Create a vending machine, deposit a valid coin, and check float amount value. Should be 1000
+Test 2b: Create a vending machine, deposit a valid coin, and deposited amount value should be value of coin
+Test 2c: Create a vending machine, test that all valid coins are accepted
+Test 2d: Create a vending machine, deposit an invalid coin, check if coin is rejected and deposited amount value should be 0
+Test 2e: Create a vending machine, deposit several valid coins, deposited amount value should be the total value of coins deposited
+Test 2f: Create a vending machine, deposit several valid coins, and then deposit an invalid coin, check and deposited amount value should the total value prior to invalid coin being deposited
+
+
+************* THE ITEMS ***************
+
+Test 3a: Create an itemType with negative price, check price and price is 5 cents
+Test 3b: Create an itemType with a price not a multiple of 5, check price and price is value entered
+Test 4a: Create an itemType and add 5 items and check quantity and it should be 5
+Test 4b: Create an itemType and add -5 items, check the quantity and it should be 0 (stating that no items were added)
+Test 4c: Create an itemType and add 15 items, check quantity and it should be 10
+Test 4d: Create an ItemType, add some quantity and get an item, check quantity and it should be 1 less than value entered
+
+
+********** STOCKING ITEMS IN VENDING MACHINES ****************
+Test 5: Create the vending machine and add more than the maximum number of itemTypes (not permitted)
+Test 6a: Create the vending machine, an itemType, add to machine,  and restock an itemType with 5 items, (permitted)
+Test 6b: Create the vending machine, an itemType, add to machine,  and restock the itemType with 15 items (able to add to machine, but quantity should be 10)
+Test 6c: Create the vending machine, an itemType, add to machine, and restock the itemType with -5 items (able to add to machine, but quantity is 0)
+Test 6d: Create the vending machine, an itemType, add to machine and restock an itemType that does not yet exist (it is out of bounds), should return false
+Test 7: Create the vending machine, an itemType with a price that is not a multiple of 5 and stock it in the machine, should return false
+
+********** PURCHASING ITEMS FROM VENDING MACHINE ****************
+
+Test 8a: Create a vending machine, stock it with an itemType and some items, deposit zero coins and purchase one of those items, (not permitted)
+Test 8b: Create a vending machine, stock it with an itemType and some items, deposit correct amount and purchase one item, item quantity should be 1 less, and change is 0
+Test 8c: Create an itemType and add 2 items, and deposit correct coins and purchase 3 of these items, item quanity should be 0 and should give error
+Test 8d: Create a vending machine, stock it with an itemType and some items, deposit correct amount plus extra amount and purchase one of those items, item quantity is 1 less and returns correct change
+Test 8e: Create a vending machine, stock it with an itemType and some items, and correct deposited amount and purchase an item in the 11th and/or the -5th index (they do not exist), deposited amount remains and gives error
+Test 8f: Create a vending machine, stock it with an itemType and no items and correct deposited amount and purchase that itemType, should give an error
+
+Test 9a: Create the vending machine and an ItemType, place it in the first slot and try to purchase and item in the second slot, should give an error
+Test 9b: Create the vending machine and an ItemType, add itemType to machine, stock items of that type, place correct deposit amount and purchase an item in the first slot. Should have proper bank amount, and deposited amount is 0
+
+Test 10a: Create a vending machine, add an itemTypes, and remove an itemType that is an invalid index
+Test 10b: Create a vending machine, add an two itemTypes, and remove the first itemType
+
+

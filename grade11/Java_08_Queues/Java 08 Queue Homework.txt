@@ -1,0 +1,9 @@
+Your homework is to implement a Queue data structure using an ArrayList.
+
+You are given the interface, starter code and a test file.
+
+You are to only modify the starter code ArrayListQueue.java.
+
+- You Queue can only hold 10 elements. It will return false if trying to enqueue an element and the Queue is full
+- The queue will return -9999 when you call dequeue and the Queue is empty
+- the toString methods returns a string representation of the queue ie [0, 10, -22, 45, 2, 50]

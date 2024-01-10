@@ -1,0 +1,468 @@
+23 Apr 2020 21:06:49 GMT: Log 'EclipseCompiler.txt' opened: 23 Apr 2020 21:06:49 GMT with name D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\EclipseCompiler.txt
+23 Apr 2020 21:06:59 GMT: diagnostics = javax.tools.DiagnosticCollector@b02c96
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@479e3c
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+23 Apr 2020 21:06:59 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@91373' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:07:00 GMT: Compiler call returned
+23 Apr 2020 21:07:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@163a24b
+23 Apr 2020 21:07:00 GMT:  Kind = WARNING
+23 Apr 2020 21:07:00 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:07:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@179e172
+23 Apr 2020 21:07:00 GMT:  Kind = WARNING
+23 Apr 2020 21:07:00 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:07:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f46f6c
+23 Apr 2020 21:07:00 GMT:  Kind = WARNING
+23 Apr 2020 21:07:00 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:07:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@126e60e
+23 Apr 2020 21:07:00 GMT:  Kind = WARNING
+23 Apr 2020 21:07:00 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:07:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@57bb18
+23 Apr 2020 21:07:00 GMT:  Kind = WARNING
+23 Apr 2020 21:07:00 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:07:00 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c7aed1
+23 Apr 2020 21:07:00 GMT:  Kind = WARNING
+23 Apr 2020 21:07:00 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:07:50 GMT: diagnostics = javax.tools.DiagnosticCollector@105950b
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@a9486d
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java]
+23 Apr 2020 21:07:50 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@243f00' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:07:50 GMT: Compiler call returned
+23 Apr 2020 21:07:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@73509b
+23 Apr 2020 21:07:50 GMT:  Kind = WARNING
+23 Apr 2020 21:07:50 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:07:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b1c8ea
+23 Apr 2020 21:07:50 GMT:  Kind = WARNING
+23 Apr 2020 21:07:50 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:07:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@74834e
+23 Apr 2020 21:07:50 GMT:  Kind = WARNING
+23 Apr 2020 21:07:50 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:07:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@36768
+23 Apr 2020 21:07:50 GMT:  Kind = WARNING
+23 Apr 2020 21:07:50 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:07:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@a1a7b
+23 Apr 2020 21:07:50 GMT:  Kind = WARNING
+23 Apr 2020 21:07:50 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:07:50 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@69c8
+23 Apr 2020 21:07:50 GMT:  Kind = WARNING
+23 Apr 2020 21:07:50 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:14:02 GMT: diagnostics = javax.tools.DiagnosticCollector@280fd6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1f3f1dd
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+23 Apr 2020 21:14:02 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@bdd683' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:14:02 GMT: Compiler call returned
+23 Apr 2020 21:14:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@168aaae
+23 Apr 2020 21:14:02 GMT:  Kind = WARNING
+23 Apr 2020 21:14:02 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:14:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d9b8e1
+23 Apr 2020 21:14:02 GMT:  Kind = WARNING
+23 Apr 2020 21:14:02 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:14:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a1f466
+23 Apr 2020 21:14:02 GMT:  Kind = WARNING
+23 Apr 2020 21:14:02 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:14:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@152f694
+23 Apr 2020 21:14:02 GMT:  Kind = WARNING
+23 Apr 2020 21:14:02 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:14:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@131094a
+23 Apr 2020 21:14:02 GMT:  Kind = WARNING
+23 Apr 2020 21:14:02 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:14:02 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a5b47d
+23 Apr 2020 21:14:02 GMT:  Kind = WARNING
+23 Apr 2020 21:14:02 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:22:08 GMT: diagnostics = javax.tools.DiagnosticCollector@139dd1f
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@15bb69
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+23 Apr 2020 21:22:08 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1603dd' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:22:08 GMT: Compiler call returned
+23 Apr 2020 21:22:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7854c0
+23 Apr 2020 21:22:08 GMT:  Kind = WARNING
+23 Apr 2020 21:22:08 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:22:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bd71e9
+23 Apr 2020 21:22:08 GMT:  Kind = WARNING
+23 Apr 2020 21:22:08 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:22:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@67e814
+23 Apr 2020 21:22:08 GMT:  Kind = WARNING
+23 Apr 2020 21:22:08 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:22:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e493c2
+23 Apr 2020 21:22:08 GMT:  Kind = WARNING
+23 Apr 2020 21:22:08 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:22:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1818ca
+23 Apr 2020 21:22:08 GMT:  Kind = WARNING
+23 Apr 2020 21:22:08 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:22:08 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4216d9
+23 Apr 2020 21:22:08 GMT:  Kind = WARNING
+23 Apr 2020 21:22:08 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:33:42 GMT: diagnostics = javax.tools.DiagnosticCollector@fa224c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1ea1a47
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+23 Apr 2020 21:33:42 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@551bd7' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:33:43 GMT: Compiler call returned
+23 Apr 2020 21:33:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1292129
+23 Apr 2020 21:33:43 GMT:  Kind = WARNING
+23 Apr 2020 21:33:43 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:33:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@786b7e
+23 Apr 2020 21:33:43 GMT:  Kind = WARNING
+23 Apr 2020 21:33:43 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:33:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3a7211
+23 Apr 2020 21:33:43 GMT:  Kind = WARNING
+23 Apr 2020 21:33:43 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:33:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fbb8fa
+23 Apr 2020 21:33:43 GMT:  Kind = WARNING
+23 Apr 2020 21:33:43 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:33:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1bdee05
+23 Apr 2020 21:33:43 GMT:  Kind = WARNING
+23 Apr 2020 21:33:43 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:33:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d34597
+23 Apr 2020 21:33:43 GMT:  Kind = WARNING
+23 Apr 2020 21:33:43 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:33:43 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1a20fa6
+23 Apr 2020 21:33:43 GMT:  Kind = WARNING
+23 Apr 2020 21:33:43 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java LineNo = 11 ColNo = 8 Msg = 'The import java.util is never used'
+23 Apr 2020 21:34:44 GMT: diagnostics = javax.tools.DiagnosticCollector@16fa5f6
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@557767
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+23 Apr 2020 21:34:44 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@260937' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:34:44 GMT: Compiler call returned
+23 Apr 2020 21:34:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e67c89
+23 Apr 2020 21:34:44 GMT:  Kind = WARNING
+23 Apr 2020 21:34:44 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:34:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e82a9b
+23 Apr 2020 21:34:44 GMT:  Kind = WARNING
+23 Apr 2020 21:34:44 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:34:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e28dbc
+23 Apr 2020 21:34:44 GMT:  Kind = WARNING
+23 Apr 2020 21:34:44 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:34:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@139fbbe
+23 Apr 2020 21:34:44 GMT:  Kind = WARNING
+23 Apr 2020 21:34:44 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:34:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@24dfa4
+23 Apr 2020 21:34:44 GMT:  Kind = WARNING
+23 Apr 2020 21:34:44 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:34:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1df8089
+23 Apr 2020 21:34:44 GMT:  Kind = WARNING
+23 Apr 2020 21:34:44 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:34:44 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1907be3
+23 Apr 2020 21:34:44 GMT:  Kind = ERROR
+23 Apr 2020 21:34:44 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java LineNo = 30 ColNo = 5 Msg = 'Syntax error, insert "Finally" to complete TryStatement'
+23 Apr 2020 21:36:14 GMT: diagnostics = javax.tools.DiagnosticCollector@419901
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@d78c93
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+23 Apr 2020 21:36:14 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@146d9c6' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:36:14 GMT: Compiler call returned
+23 Apr 2020 21:36:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14e62cc
+23 Apr 2020 21:36:14 GMT:  Kind = WARNING
+23 Apr 2020 21:36:14 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e1c2f0
+23 Apr 2020 21:36:14 GMT:  Kind = WARNING
+23 Apr 2020 21:36:14 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:36:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@42ec4c
+23 Apr 2020 21:36:14 GMT:  Kind = WARNING
+23 Apr 2020 21:36:14 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7ce595
+23 Apr 2020 21:36:14 GMT:  Kind = WARNING
+23 Apr 2020 21:36:14 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:36:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@2cb614
+23 Apr 2020 21:36:14 GMT:  Kind = WARNING
+23 Apr 2020 21:36:14 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10b0ae3
+23 Apr 2020 21:36:14 GMT:  Kind = WARNING
+23 Apr 2020 21:36:14 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@22b442
+23 Apr 2020 21:36:14 GMT:  Kind = ERROR
+23 Apr 2020 21:36:14 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java LineNo = 29 ColNo = 7 Msg = 'thread cannot be resolved'
+23 Apr 2020 21:36:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dfbade
+23 Apr 2020 21:36:14 GMT:  Kind = ERROR
+23 Apr 2020 21:36:14 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java LineNo = 35 ColNo = 6 Msg = 'system cannot be resolved'
+23 Apr 2020 21:36:14 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@643627
+23 Apr 2020 21:36:14 GMT:  Kind = ERROR
+23 Apr 2020 21:36:14 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java LineNo = 35 ColNo = 27 Msg = 'The method getmessage() is undefined for the type java.lang.InterruptedException'
+23 Apr 2020 21:36:32 GMT: diagnostics = javax.tools.DiagnosticCollector@2c2754
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@17b98a6
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+23 Apr 2020 21:36:32 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1c1fc85' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:36:32 GMT: Compiler call returned
+23 Apr 2020 21:36:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@d8a63e
+23 Apr 2020 21:36:32 GMT:  Kind = WARNING
+23 Apr 2020 21:36:32 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b317fb
+23 Apr 2020 21:36:32 GMT:  Kind = WARNING
+23 Apr 2020 21:36:32 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:36:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c84158
+23 Apr 2020 21:36:32 GMT:  Kind = WARNING
+23 Apr 2020 21:36:32 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4e41e1
+23 Apr 2020 21:36:32 GMT:  Kind = WARNING
+23 Apr 2020 21:36:32 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:36:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10aecc0
+23 Apr 2020 21:36:32 GMT:  Kind = WARNING
+23 Apr 2020 21:36:32 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f82815
+23 Apr 2020 21:36:32 GMT:  Kind = WARNING
+23 Apr 2020 21:36:32 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@16673f3
+23 Apr 2020 21:36:32 GMT:  Kind = ERROR
+23 Apr 2020 21:36:32 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java LineNo = 35 ColNo = 6 Msg = 'system cannot be resolved'
+23 Apr 2020 21:36:32 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c768f7
+23 Apr 2020 21:36:32 GMT:  Kind = ERROR
+23 Apr 2020 21:36:32 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java LineNo = 35 ColNo = 27 Msg = 'The method getmessage() is undefined for the type java.lang.InterruptedException'
+23 Apr 2020 21:36:39 GMT: diagnostics = javax.tools.DiagnosticCollector@e95dac
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@cd9695
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+23 Apr 2020 21:36:39 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1aebc13' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:36:39 GMT: Compiler call returned
+23 Apr 2020 21:36:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@565f43
+23 Apr 2020 21:36:39 GMT:  Kind = WARNING
+23 Apr 2020 21:36:39 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@186b94a
+23 Apr 2020 21:36:39 GMT:  Kind = WARNING
+23 Apr 2020 21:36:39 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:36:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b4c286
+23 Apr 2020 21:36:39 GMT:  Kind = WARNING
+23 Apr 2020 21:36:39 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@e154a9
+23 Apr 2020 21:36:39 GMT:  Kind = WARNING
+23 Apr 2020 21:36:39 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:36:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@21b131
+23 Apr 2020 21:36:39 GMT:  Kind = WARNING
+23 Apr 2020 21:36:39 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b11796
+23 Apr 2020 21:36:39 GMT:  Kind = WARNING
+23 Apr 2020 21:36:39 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:39 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@df5d74
+23 Apr 2020 21:36:39 GMT:  Kind = ERROR
+23 Apr 2020 21:36:39 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java LineNo = 35 ColNo = 27 Msg = 'The method getmessage() is undefined for the type java.lang.InterruptedException'
+23 Apr 2020 21:36:49 GMT: diagnostics = javax.tools.DiagnosticCollector@1ab7d0c
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@1017637
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+23 Apr 2020 21:36:49 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@3338d7' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:36:49 GMT: Compiler call returned
+23 Apr 2020 21:36:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@c93df2
+23 Apr 2020 21:36:49 GMT:  Kind = WARNING
+23 Apr 2020 21:36:49 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1aecfe5
+23 Apr 2020 21:36:49 GMT:  Kind = WARNING
+23 Apr 2020 21:36:49 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:36:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c75aa2
+23 Apr 2020 21:36:49 GMT:  Kind = WARNING
+23 Apr 2020 21:36:49 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9cdeb0
+23 Apr 2020 21:36:49 GMT:  Kind = WARNING
+23 Apr 2020 21:36:49 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:36:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14b48bc
+23 Apr 2020 21:36:49 GMT:  Kind = WARNING
+23 Apr 2020 21:36:49 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1f7dd7
+23 Apr 2020 21:36:49 GMT:  Kind = WARNING
+23 Apr 2020 21:36:49 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:36:49 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@10a36fc
+23 Apr 2020 21:36:49 GMT:  Kind = WARNING
+23 Apr 2020 21:36:49 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java LineNo = 11 ColNo = 8 Msg = 'The import java.util is never used'
+23 Apr 2020 21:37:01 GMT: diagnostics = javax.tools.DiagnosticCollector@1e2b0d4
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@843c7d
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+23 Apr 2020 21:37:01 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@17ee1a5' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:37:01 GMT: Compiler call returned
+23 Apr 2020 21:37:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@9cdba
+23 Apr 2020 21:37:01 GMT:  Kind = WARNING
+23 Apr 2020 21:37:01 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:37:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1ec81db
+23 Apr 2020 21:37:01 GMT:  Kind = WARNING
+23 Apr 2020 21:37:01 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:37:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4e1dda
+23 Apr 2020 21:37:01 GMT:  Kind = WARNING
+23 Apr 2020 21:37:01 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:37:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@12e8600
+23 Apr 2020 21:37:01 GMT:  Kind = WARNING
+23 Apr 2020 21:37:01 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:37:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e4f182
+23 Apr 2020 21:37:01 GMT:  Kind = WARNING
+23 Apr 2020 21:37:01 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:37:01 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@3951fc
+23 Apr 2020 21:37:01 GMT:  Kind = WARNING
+23 Apr 2020 21:37:01 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:37:44 GMT: diagnostics = javax.tools.DiagnosticCollector@1e23655
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@fb86db
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+23 Apr 2020 21:37:44 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@14d0149' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:37:45 GMT: Compiler call returned
+23 Apr 2020 21:37:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@136207c
+23 Apr 2020 21:37:45 GMT:  Kind = WARNING
+23 Apr 2020 21:37:45 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:37:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e31d11
+23 Apr 2020 21:37:45 GMT:  Kind = WARNING
+23 Apr 2020 21:37:45 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:37:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1600dda
+23 Apr 2020 21:37:45 GMT:  Kind = WARNING
+23 Apr 2020 21:37:45 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:37:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@71b89d
+23 Apr 2020 21:37:45 GMT:  Kind = WARNING
+23 Apr 2020 21:37:45 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:37:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@484cef
+23 Apr 2020 21:37:45 GMT:  Kind = WARNING
+23 Apr 2020 21:37:45 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:37:45 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@182d222
+23 Apr 2020 21:37:45 GMT:  Kind = WARNING
+23 Apr 2020 21:37:45 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:46:52 GMT: diagnostics = javax.tools.DiagnosticCollector@177a583
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@12e70a7
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java, D:\Grade 10\Computer science - Mr. Hossain\delay_example_code.java]
+23 Apr 2020 21:46:52 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@1b4c388' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:46:53 GMT: Compiler call returned
+23 Apr 2020 21:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1e0915f
+23 Apr 2020 21:46:53 GMT:  Kind = WARNING
+23 Apr 2020 21:46:53 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@36b7e7
+23 Apr 2020 21:46:53 GMT:  Kind = WARNING
+23 Apr 2020 21:46:53 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@13b476e
+23 Apr 2020 21:46:53 GMT:  Kind = WARNING
+23 Apr 2020 21:46:53 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@91a37e
+23 Apr 2020 21:46:53 GMT:  Kind = WARNING
+23 Apr 2020 21:46:53 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@114a25a
+23 Apr 2020 21:46:53 GMT:  Kind = WARNING
+23 Apr 2020 21:46:53 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b0bbd0
+23 Apr 2020 21:46:53 GMT:  Kind = WARNING
+23 Apr 2020 21:46:53 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:46:53 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@14b96df
+23 Apr 2020 21:46:53 GMT:  Kind = WARNING
+23 Apr 2020 21:46:53 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\delay_example_code.java LineNo = 8 ColNo = 9 Msg = 'The value of the local variable d is not used'
+23 Apr 2020 21:49:33 GMT: diagnostics = javax.tools.DiagnosticCollector@178ebb7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@12da410
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java, D:\Grade 10\Computer science - Mr. Hossain\delay_example_code.java]
+23 Apr 2020 21:49:33 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@c383fc' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:49:33 GMT: Compiler call returned
+23 Apr 2020 21:49:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19effa7
+23 Apr 2020 21:49:33 GMT:  Kind = WARNING
+23 Apr 2020 21:49:33 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:49:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1cabe6e
+23 Apr 2020 21:49:33 GMT:  Kind = WARNING
+23 Apr 2020 21:49:33 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:49:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@91f4cf
+23 Apr 2020 21:49:33 GMT:  Kind = WARNING
+23 Apr 2020 21:49:33 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:49:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@289bad
+23 Apr 2020 21:49:33 GMT:  Kind = WARNING
+23 Apr 2020 21:49:33 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:49:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@533a48
+23 Apr 2020 21:49:33 GMT:  Kind = WARNING
+23 Apr 2020 21:49:33 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:49:33 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dccb62
+23 Apr 2020 21:49:33 GMT:  Kind = WARNING
+23 Apr 2020 21:49:33 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:50:19 GMT: diagnostics = javax.tools.DiagnosticCollector@1317bfc
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@192d5f0
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java, D:\Grade 10\Computer science - Mr. Hossain\delay_example_code.java]
+23 Apr 2020 21:50:19 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@44e866' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:50:19 GMT: Compiler call returned
+23 Apr 2020 21:50:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1707ae0
+23 Apr 2020 21:50:19 GMT:  Kind = WARNING
+23 Apr 2020 21:50:19 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:50:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@31fbb
+23 Apr 2020 21:50:19 GMT:  Kind = WARNING
+23 Apr 2020 21:50:19 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:50:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dc81d5
+23 Apr 2020 21:50:19 GMT:  Kind = WARNING
+23 Apr 2020 21:50:19 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:50:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@68e69e
+23 Apr 2020 21:50:19 GMT:  Kind = WARNING
+23 Apr 2020 21:50:19 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:50:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@593489
+23 Apr 2020 21:50:19 GMT:  Kind = WARNING
+23 Apr 2020 21:50:19 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:50:19 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@fb10be
+23 Apr 2020 21:50:19 GMT:  Kind = WARNING
+23 Apr 2020 21:50:19 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:51:27 GMT: diagnostics = javax.tools.DiagnosticCollector@9a4686
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@193d29d
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java, D:\Grade 10\Computer science - Mr. Hossain\delay_example_code.java]
+23 Apr 2020 21:51:27 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@133274c' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:51:27 GMT: Compiler call returned
+23 Apr 2020 21:51:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17f67c0
+23 Apr 2020 21:51:27 GMT:  Kind = WARNING
+23 Apr 2020 21:51:27 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:51:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1d0e677
+23 Apr 2020 21:51:27 GMT:  Kind = WARNING
+23 Apr 2020 21:51:27 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:51:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@15cb09b
+23 Apr 2020 21:51:27 GMT:  Kind = WARNING
+23 Apr 2020 21:51:27 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:51:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@dbe116
+23 Apr 2020 21:51:27 GMT:  Kind = WARNING
+23 Apr 2020 21:51:27 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:51:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4ed1ea
+23 Apr 2020 21:51:27 GMT:  Kind = WARNING
+23 Apr 2020 21:51:27 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:51:27 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19600a
+23 Apr 2020 21:51:27 GMT:  Kind = WARNING
+23 Apr 2020 21:51:27 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:51:35 GMT: diagnostics = javax.tools.DiagnosticCollector@135a8a8
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@3907aa
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java, D:\Grade 10\Computer science - Mr. Hossain\delay_example_code.java]
+23 Apr 2020 21:51:35 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@100d7b' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:51:35 GMT: Compiler call returned
+23 Apr 2020 21:51:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@b10149
+23 Apr 2020 21:51:35 GMT:  Kind = WARNING
+23 Apr 2020 21:51:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:51:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@148daae
+23 Apr 2020 21:51:35 GMT:  Kind = WARNING
+23 Apr 2020 21:51:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:51:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fc9dc9
+23 Apr 2020 21:51:35 GMT:  Kind = WARNING
+23 Apr 2020 21:51:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:51:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@17c7c25
+23 Apr 2020 21:51:35 GMT:  Kind = WARNING
+23 Apr 2020 21:51:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:51:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1c5900a
+23 Apr 2020 21:51:35 GMT:  Kind = WARNING
+23 Apr 2020 21:51:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:51:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@7b976
+23 Apr 2020 21:51:35 GMT:  Kind = WARNING
+23 Apr 2020 21:51:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:52:10 GMT: diagnostics = javax.tools.DiagnosticCollector@14c4ea7
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@13309c
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java, D:\Grade 10\Computer science - Mr. Hossain\delay_example_code.java]
+23 Apr 2020 21:52:10 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@172c7ee' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+23 Apr 2020 21:52:10 GMT: Compiler call returned
+23 Apr 2020 21:52:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@151ed1d
+23 Apr 2020 21:52:10 GMT:  Kind = WARNING
+23 Apr 2020 21:52:10 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:52:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@ace622
+23 Apr 2020 21:52:10 GMT:  Kind = WARNING
+23 Apr 2020 21:52:10 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:52:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4bd42e
+23 Apr 2020 21:52:10 GMT:  Kind = WARNING
+23 Apr 2020 21:52:10 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:52:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1933c9b
+23 Apr 2020 21:52:10 GMT:  Kind = WARNING
+23 Apr 2020 21:52:10 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+23 Apr 2020 21:52:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1fe0c31
+23 Apr 2020 21:52:10 GMT:  Kind = WARNING
+23 Apr 2020 21:52:10 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+23 Apr 2020 21:52:10 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@6461da
+23 Apr 2020 21:52:10 GMT:  Kind = WARNING
+23 Apr 2020 21:52:10 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'
+24 Apr 2020 4:34:35 GMT: diagnostics = javax.tools.DiagnosticCollector@cb7473
+fileManager = org.eclipse.jdt.internal.compiler.tool.EclipseFileManager@22c8d4
+fileObjects = [D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\AnimationAssignment_GryspeerdtHendrix.java]
+24 Apr 2020 4:34:35 GMT: Calling 'org.eclipse.jdt.internal.compiler.tool.EclipseCompiler@80afe7' with options [-Xlint:deprecation, -Xlint:unchecked, -g, -classpath, D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment;D:\Grade 10\Computer science - Mr. Hossain\drjava-beta-20160913-225446.exe]
+24 Apr 2020 4:34:35 GMT: Compiler call returned
+24 Apr 2020 4:34:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@aa2938
+24 Apr 2020 4:34:35 GMT:  Kind = WARNING
+24 Apr 2020 4:34:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\CloseableDialog.java LineNo = 17 ColNo = 7 Msg = 'The serializable class CloseableDialog does not declare a static final serialVersionUID field of type long'
+24 Apr 2020 4:34:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dc85ad
+24 Apr 2020 4:34:35 GMT:  Kind = WARNING
+24 Apr 2020 4:34:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Console.java LineNo = 30 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+24 Apr 2020 4:34:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@49c7a2
+24 Apr 2020 4:34:35 GMT:  Kind = WARNING
+24 Apr 2020 4:34:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 38 ColNo = 14 Msg = 'The serializable class ConsoleCanvas does not declare a static final serialVersionUID field of type long'
+24 Apr 2020 4:34:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@1dd016c
+24 Apr 2020 4:34:35 GMT:  Kind = WARNING
+24 Apr 2020 4:34:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\ConsoleCanvas.java LineNo = 33 ColNo = 8 Msg = 'The import java.awt.image.ImageObserver is never used'
+24 Apr 2020 4:34:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@4f1046
+24 Apr 2020 4:34:35 GMT:  Kind = WARNING
+24 Apr 2020 4:34:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\FatalError.java LineNo = 17 ColNo = 14 Msg = 'The serializable class FatalError does not declare a static final serialVersionUID field of type long'
+24 Apr 2020 4:34:35 GMT: Processing diagnostic org.eclipse.jdt.internal.compiler.tool.EclipseCompilerImpl$3$2@19719cf
+24 Apr 2020 4:34:35 GMT:  Kind = WARNING
+24 Apr 2020 4:34:35 GMT: Name = D:\Grade 10\Computer science - Mr. Hossain\April 23 - Animation assignment\hsa_ufa\Message.java LineNo = 19 ColNo = 14 Msg = 'The serializable class Message does not declare a static final serialVersionUID field of type long'

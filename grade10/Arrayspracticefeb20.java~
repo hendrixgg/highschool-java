@@ -1,0 +1,31 @@
+//Hendrix Gryspeerdt
+//20/02/2020
+//Arrays practice
+
+
+
+class Arrayspracticefeb20
+{
+  
+  public static void main (String args[])
+  {
+  Arraya();
+  }
+   
+  public static void Arraya()
+  {
+   int [] a = new int[10];
+   
+   for (int i = 0; i < a.length; i++)
+   {
+    a[i] = i + 1; 
+   }
+   for (int i = 1; i < a.length; i++)
+   {
+    System.out.println( a[i] ); 
+   }
+     
+  }
+  
+  
+}

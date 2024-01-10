@@ -1,0 +1,38 @@
+/*date: 23/09/2020
+ * name: Hendrix Gryspeerdt
+ * Java 03.1 - Magic Square Exercise
+ */
+class Java_03_1_Magic_Square_Excercise_GryspeerdtHendrix 
+{
+  
+  
+  public static void main(String[] args) 
+  { 
+    System.out.println("A magic square of order n is a square array containing the integers");
+    System.out.println("\t1, 2, 3, . . ., n, n+1, n+2, . . ., n^(2-2), n^(2-1), n^2");
+    System.out.println("each one used exactly once. The values in each row, column, and two diagonals must sum to the same value.");
+    System.out.println("The number n is called the order of the magic square. For an example, see the square below (of order 4):")
+    4x4BlankSquare();
+  }
+  
+  public static void 4x4BlankSquare()
+  {
+    System.out.println();
+    for(int row = 0; row < 5; row++)
+    {
+      for(int col = 0; col < 5; col++)
+      {
+        if(col == 0 && row > 0)
+        {
+          System.out.print("|");
+        }
+        System.out.print("_");
+        if(col = 5 && row > 0)
+        {
+          System.out.print("|");
+        }
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,22 @@
+//Hendrix Gryspeerdt
+//Methods in Java - Basics
+//Date: 06/01/2020
+
+
+class MethodsinJava_Basics{
+
+  public static void regularDiceRoll (String[] args)
+    {
+      int roll = (int)( 6 * Math.random() ) + 1;
+      System.out.println("You rolled a " + roll + "!");
+    }
+  public static void printHeading ()
+  {
+    Ststem.out.println
+  public static void main(String []args){
+    
+    
+    
+  }
+  
+}

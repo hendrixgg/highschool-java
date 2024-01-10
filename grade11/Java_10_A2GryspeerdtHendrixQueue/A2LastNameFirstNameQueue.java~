@@ -1,0 +1,119 @@
+import java.util.*;
+public class A2LastNameFirstNameQueue implements DynamicArrayQueue{
+    
+  private int capacity = 10;
+  int front;
+  int rear;
+  int[] myArray;
+  int currentSize;
+    
+    
+    public A2LastNameFirstNameQueue(){
+      // the default size of the queue is 10
+      myArray= new int[capacity];
+      currentSize=0;
+      front=0;
+      rear=0;
+    }
+    
+     //  Adds one element to the rear of the queue. 
+     //  Returns true if successful, false otherwise
+    public boolean enqueue (int element)
+    {
+      if(isFull())
+        return false;
+      myArray[rear] = element;
+      currentSize++;
+      rear = (rear+1) % myArray.length;
+      return true;
+    }
+   
+   //  Removes and returns the element at the front of the queue
+    public int dequeue(){
+      if(isEmpty())
+        return -9999;
+      int output = myArray[front];
+      myArray[front] = 0;
+      currentSize--;
+      front = (front+1)%myArray.length;
+      return output;
+    }
+   
+   //  Returns without removing the element at the front of the queue
+    public int peek(){
+      if(isEmpty())
+        return -9999;
+      
+      return myArray[front];
+    }
+   //  Returns true if the queue contains no elements
+    public boolean isEmpty(){
+      return currentSize == 0;
+    }
+   
+   //  Returns the number of elements in the queue
+    public int size(){
+        return currentSize;
+    }
+   
+   //  Returns a string representation of the queue
+    public String toString(){
+      if(isEmpty())
+        return "[]";
+      //to be executed if queue not empty
+      String queue = "[";
+      int tempfront = front;
+      int index = 0;
+      while(true){
+        if(tempfront == rear){
+          queue += myArray[rear] + ", ";
+        }else{
+          queue += myArray[tempfront];
+        }
+        tempfront++;
+        if(tempfront == myArray.length)
+          tempfront = 0;
+        index++;
+        if(currentSize == index)
+          break;
+        if(tempfront-1 != rear)
+          queue += ", ";
+      }
+      queue += "]";
+      return queue;
+    }
+    
+    //
+    //additional methods of my own:
+    //
+    
+    //  Returns true if numItems equals myArray.length-1 
+    public boolean isFull(){
+     return currentSize == myArray.length; 
+    }
+    public void peekRear(){
+     System.out.println(myArray[rear]); 
+    }
+    
+    //  Create new array with double capacity and copy all elements to it in correct order
+    private void increaseCapacity(){
+      //creating new array with double the capacity as previous
+      int newCapacity = myArray.length*2;
+      int[] newArray = new int[newCapacity];
+      //copy elements to new array, copying from rear to front
+      int tempfront = front;
+      int index = 0;
+      while(true){
+       newArray[index++] = myArray[tempfront];
+       tempfront++;
+       if(tempfront == myArray.length)
+         tempfront = 0;
+       if(currentSize == index+1)
+         break;
+      }
+      //make new array the queue
+      myArray = newArray;
+      front = 0;
+      rear = index;
+    }
+}
